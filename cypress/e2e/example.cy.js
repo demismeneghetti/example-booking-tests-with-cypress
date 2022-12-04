@@ -1,7 +1,11 @@
 describe("example spec", () => {
-  it("passes", () => {
-    let destination = "Porto";
+  
+  beforeEach(() => {
     cy.visit("/index.en-gb.html");
+  });
+  
+  it("Search properties and select interval date.", () => {
+    let destination = "Porto";
     cy.acceptTerms();
     cy.findDestination(destination);
     cy.validateTotalProperties();
