@@ -1,6 +1,6 @@
 
 <h1 align="center"> 
-    Example Booking Tests for D.E.U.S. Company.
+    Example Booking Tests Using Cypress.IO.
 </h1>
 
 <p align="justify"> 
